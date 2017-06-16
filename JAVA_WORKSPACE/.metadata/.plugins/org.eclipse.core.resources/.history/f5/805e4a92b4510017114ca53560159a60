@@ -1,0 +1,9 @@
+package swing;
+
+class MyFrame extends JFrame {
+	
+}
+
+public class MyApp01 {
+
+}

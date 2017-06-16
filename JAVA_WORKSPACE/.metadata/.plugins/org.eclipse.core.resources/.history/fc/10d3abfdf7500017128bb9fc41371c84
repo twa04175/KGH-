@@ -1,0 +1,19 @@
+import java.io.File;
+
+public class FileClassExample {
+	
+	public static void dir(File fd) {
+		String[] filenames = fd.list();
+		
+		for(String s : filenames) {
+			
+		}
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

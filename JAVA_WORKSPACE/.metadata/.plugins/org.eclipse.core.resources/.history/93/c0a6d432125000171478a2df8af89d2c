@@ -1,0 +1,17 @@
+import java.util.HashMap;
+
+public class HashMapEx {
+	
+	public static void main(String[] args) {
+		HashMap<String,String> dic = new HashMap<String,String>();
+		
+		String[] Key = new String[]{};
+		String[] Value = new String[]{};
+		
+		for(int i = 0; i<Key.length; i++) {
+			dic.put(Key[i], Value[i]);
+		}
+		
+	}
+
+}

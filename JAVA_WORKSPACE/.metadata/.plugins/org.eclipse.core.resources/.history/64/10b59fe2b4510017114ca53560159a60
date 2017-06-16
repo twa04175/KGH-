@@ -1,0 +1,19 @@
+package swing;
+
+import javax.swing.JFrame;
+
+class MyFrame01 extends JFrame {
+	
+	public MyFrame01() {
+		setTitle("첫번째 프레임");
+		setSize(600,300);
+		setVisible(true);
+	}
+}
+
+public class MyApp01 {
+
+	public static void main(String[] args) {
+		new MyFrame01();
+	}
+}

@@ -1,0 +1,9 @@
+import java.io.InputStreamReader;
+
+public class FileWriterEx {
+	
+	public static void main(String[] args) {
+		InputStreamReader in = new InputStreamReader(System.in);
+	}
+
+}

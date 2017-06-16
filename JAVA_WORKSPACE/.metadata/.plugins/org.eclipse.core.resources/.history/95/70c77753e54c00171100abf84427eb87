@@ -1,0 +1,15 @@
+package oracleDB;
+
+import javafx.application.Application;
+
+public class Main extends Application{
+	
+	public void start (Stage primarystage) {
+		
+	}
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
+
+}

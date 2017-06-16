@@ -1,0 +1,12 @@
+
+public class FileClassExample {
+	
+	public static void dir(File fd) {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package oracleDB;
+
+import javafx.application.Application;
+import javafx.stage.Stage;
+
+public class Main extends Application{
+	
+	public void start (Stage primarystage) {// 오라클 데이터 베이스조작 & 조작 로그 파일화 
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
+
+}

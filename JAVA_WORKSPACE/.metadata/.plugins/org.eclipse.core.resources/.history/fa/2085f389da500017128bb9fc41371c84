@@ -1,0 +1,15 @@
+import java.io.FileInputStream;
+
+public class FileInputStreamEx {
+
+	public static void main(String[] args) {
+		FileInputStream fin = null;
+		
+		try {
+			
+		} finally {
+			// TODO: handle finally clause
+		}
+		
+	}
+}

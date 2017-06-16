@@ -1,0 +1,22 @@
+import java.util.HashMap;
+import java.util.Set;
+
+public class HashMapEx {
+	
+	public static void main(String[] args) {
+		HashMap<String,String> dic = new HashMap<String,String>();
+		
+		String[] Key = new String[]{};
+		String[] Value = new String[]{};
+		
+		for(int i = 0; i<Key.length; i++) {
+			dic.put(Key[i], Value[i]);
+		}
+		
+		Set<String> keys = dic.keySet();
+		
+		
+		
+	}
+
+}

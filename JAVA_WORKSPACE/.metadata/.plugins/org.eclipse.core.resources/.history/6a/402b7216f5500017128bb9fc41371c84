@@ -1,0 +1,8 @@
+import java.io.InputStreamReader;
+
+public class BufferdIOEx {
+
+	public static void main(String[] args) {
+		InputStreamReader in = new InputStreamReader(System.in);
+	}
+}

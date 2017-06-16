@@ -1,0 +1,42 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class BinaryCopy {
+
+	public static void main(String[] args) {
+		File src = new File("c:\\windows\\explorer.exe");
+		File dst = new File("D:\\temp\\explorer.bin");
+		FileInputStream fr = null;
+		FileOutputStream fw = null;
+		BufferedReader in = null;
+		BufferedWriter out = null;
+		int c;
+		
+		try {
+			fr = new FileReader(src);
+			fw = new FileWriter(dst);
+			in = new BufferedReader(fr);
+			out = new BufferedWriter(fw);
+			
+			while((c = in.read()) != -1) {
+				out.write((char)c);
+			}
+			System.out.println("복사를 완료하였습니다.");
+			
+			in.close();
+			out.close();
+			fr.close();
+			fw.close();
+			
+		} catch (IOException e) {
+			// TODO: handle exception
+		}
+		
+	}
+}
