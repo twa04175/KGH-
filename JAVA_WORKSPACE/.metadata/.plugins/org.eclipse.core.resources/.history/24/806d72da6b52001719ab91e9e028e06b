@@ -1,0 +1,13 @@
+import javax.swing.JFrame;
+
+public class GridLayoutEx extends JFrame {
+	
+	GridLayoutEx() {
+		
+	}
+	
+	public static void main(String[] args) {
+		new GridLayoutEx();
+	}
+
+}

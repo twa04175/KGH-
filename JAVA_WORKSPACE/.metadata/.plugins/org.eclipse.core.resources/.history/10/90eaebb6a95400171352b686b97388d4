@@ -1,0 +1,20 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		try {
+			method();
+		} catch (Exception e) {
+			System.out.print("E");
+		}
+	}
+	
+	static void method() {
+		try {
+			testEx();
+			System.out.print("A");
+		} catch (ArithmeticException e) {
+			// TODO: handle exception
+		}
+	}
+}

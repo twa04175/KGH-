@@ -1,0 +1,38 @@
+import java.awt.Container;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class NullContainerEx extends JFrame {
+
+	private static final long serialVersionUID = 1L;
+
+	NullContainerEx() {
+		
+		setTitle("Null Container Sample");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Container c = getContentPane();
+		c.setLayout(null);
+		
+		JLabel la = new JLabel("Hello, Press Button!");
+		la.setLocation(130,50);
+		la.setSize(200,20);
+		c.add(la);
+		
+		for(int i = 0; i<=9; i++) {
+			JButton b = new JButton(""+i);
+			b.setLocation(i*15,i*15);
+			b.setSize(50,20);
+			c.add(b);
+		}
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		new NullContainerEx();
+	}
+}

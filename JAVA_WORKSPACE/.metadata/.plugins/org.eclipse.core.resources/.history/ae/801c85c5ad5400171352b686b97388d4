@@ -1,0 +1,21 @@
+import static java.lang.Math.*;
+
+class Test03 {
+	
+	protected double getName() {
+		return Math.E;
+	}
+	
+	public static getName() {
+		
+	}
+	
+}
+
+class Test04 extends Test03 {
+	
+	@Override
+	public double getName() {
+		return 0;
+	}
+}

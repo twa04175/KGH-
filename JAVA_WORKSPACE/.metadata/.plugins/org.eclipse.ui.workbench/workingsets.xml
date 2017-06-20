@@ -20,6 +20,17 @@
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1497513544284_7" label="2017-06-15(목)" name="2017-06-15(목)">
 <item elementID="=2017-06-15" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1497600761100_8" label="2017-06-16" name="2017-06-16">
+<item elementID="=2017-06-16" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ocjp" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=hkit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1497859409228_9" label="2017-06-19" name="2017-06-19">
+<item elementID="=2017-06-19" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1497859914711_10" label="Homework" name="Homework">
+<item elementID="=2017-06-19-homework" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1496794254851_0" label="Window Working Set" name="Aggregate for window 1496794254850"/>
 <mruList name="2017-06-07(수)"/>
 </workingSetManager>

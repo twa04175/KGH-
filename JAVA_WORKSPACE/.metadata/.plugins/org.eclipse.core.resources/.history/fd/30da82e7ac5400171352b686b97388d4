@@ -1,0 +1,4 @@
+
+public class Test03 {
+	public static final String name = "John Mayer";
+}

@@ -1,0 +1,22 @@
+import java.awt.Container;
+
+import javax.swing.JFrame;
+
+public class NullContainerEx extends JFrame {
+
+	private static final long serialVersionUID = 1L;
+
+	NullContainerEx() {
+		
+		setTitle("Null Container Sample");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Container c = getContentPane();
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		new NullContainerEx();
+	}
+}

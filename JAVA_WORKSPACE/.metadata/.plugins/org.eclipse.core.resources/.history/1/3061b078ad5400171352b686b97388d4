@@ -1,0 +1,17 @@
+import static java.lang.Math.*;
+
+class Test03 {
+	
+	public double getName() {
+		return Math.E;
+	}
+	
+}
+
+class Test04 {
+	
+	@Override
+	public int getName() {
+		return 0;
+	}
+}

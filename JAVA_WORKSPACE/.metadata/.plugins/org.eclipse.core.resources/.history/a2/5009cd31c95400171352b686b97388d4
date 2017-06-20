@@ -1,0 +1,20 @@
+import java.awt.GridLayout;
+
+import javax.swing.JFrame;
+
+public class Ch09_05 extends JFrame {
+	
+	private static final long serialVersionUID = 1L;
+
+	Ch09_05(){
+		setTitle("4x4 Color Frame");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		setLayout(new GridLayout(3,4));
+		
+	}
+	
+	public static void main(String[] args) {
+		new Ch09_05();
+	}
+}

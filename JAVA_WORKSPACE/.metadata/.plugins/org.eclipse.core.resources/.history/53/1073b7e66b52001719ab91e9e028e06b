@@ -1,0 +1,21 @@
+import java.awt.Container;
+
+import javax.swing.JFrame;
+
+public class GridLayoutEx extends JFrame {
+	
+	GridLayoutEx() {
+		setTitle("GridLayout Sample");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Container c = getContentPane();
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		new GridLayoutEx();
+	}
+
+}

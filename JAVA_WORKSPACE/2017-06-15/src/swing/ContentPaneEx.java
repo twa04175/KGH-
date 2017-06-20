@@ -86,6 +86,23 @@ public class ContentPaneEx extends JFrame {
 			a=0;
 		});
 		
+//		op.addActionListener(new ActionListener(){
+//
+//			@Override
+//			public void actionPerformed(ActionEvent arg0) {
+//				// TODO Auto-generated method stub
+//			}
+//			
+//		});
+//		
+//		ActionListener a = new ActionListener(){
+//			@Override
+//			public void actionPerformed(ActionEvent e) {
+//				// TODO Auto-generated method stub
+//				
+//			}
+//		};
+//		
 		op1.addActionListener(e->{
 			sum+=a;
 			ta.setText("숫자들의 합은 "+sum+"입니다.");
@@ -103,7 +120,7 @@ public class ContentPaneEx extends JFrame {
 		contentPane.add(btn7);
 		contentPane.add(btn8);
 		contentPane.add(btn9);
-		
+
 		contentPane.add(op);
 		contentPane.add(op1);
 		contentPane.add(ta);

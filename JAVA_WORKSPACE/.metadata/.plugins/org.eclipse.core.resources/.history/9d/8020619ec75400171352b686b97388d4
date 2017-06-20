@@ -1,0 +1,20 @@
+import java.awt.GridLayout;
+
+import javax.swing.JFrame;
+
+public class Ch09_04 extends JFrame {
+	
+	private static final long serialVersionUID = 1L;
+
+	Ch09_04(){
+		setTitle("Ten Color Buttons Frame");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		setLayout(new GridLayout(1,10));
+		
+	}
+	
+	public static void main(String[] args) {
+		new Ch09_04();
+	}
+}

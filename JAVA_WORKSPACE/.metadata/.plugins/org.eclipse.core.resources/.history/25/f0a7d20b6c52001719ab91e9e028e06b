@@ -1,0 +1,28 @@
+import java.awt.Container;
+import java.awt.GridLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class GridLayoutEx extends JFrame {
+	
+	GridLayoutEx() {
+		setTitle("GridLayout Sample");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Container c = getContentPane();
+		GridLayout grid = new GridLayout(4,2);
+		
+		grid.setVgap(5);
+		c.setLayout(grid);
+		c.add(new JLabel("¿Ã∏ß"));
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		new GridLayoutEx();
+	}
+
+}

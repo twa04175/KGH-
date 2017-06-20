@@ -1,0 +1,16 @@
+import static java.lang.Math.*;
+
+class Test03 {
+	
+	public double getName() {
+		return Math.E;
+	}
+	
+}
+
+class Test04 {
+	
+	public int getName() {
+		
+	}
+}

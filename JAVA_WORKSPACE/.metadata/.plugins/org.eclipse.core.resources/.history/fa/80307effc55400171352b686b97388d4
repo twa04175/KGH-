@@ -1,0 +1,13 @@
+import javax.swing.JFrame;
+
+public class NullContainerEx extends JFrame {
+
+	NullContainerEx() {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		new NullContainerEx();
+	}
+}

@@ -1,0 +1,13 @@
+import javax.swing.JFrame;
+
+public class Ch09_04 extends JFrame {
+	
+	Ch09_04(){
+		
+	}
+	
+	public static void main(String[] args) {
+		new Ch09_04();
+	}
+
+}
